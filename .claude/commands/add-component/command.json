@@ -1,0 +1,6 @@
+{
+  "name": "add-component",
+  "description": "components/ 폴더에 새로운 React 함수형 컴포넌트 생성",
+  "argumentHint": "<component-name>",
+  "command": "./command.sh"
+}
