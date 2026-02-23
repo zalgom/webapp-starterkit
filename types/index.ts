@@ -1,3 +1,5 @@
+import type { ComponentType } from "react";
+
 // 네비게이션 링크 타입
 export interface NavLink {
   label: string;
@@ -13,7 +15,7 @@ export interface FooterLinkGroup {
 
 // 기능 소개 카드 타입 (랜딩 페이지용)
 export interface FeatureItem {
-  icon: React.ComponentType<{ className?: string }>;
+  icon: ComponentType<{ className?: string }>;
   title: string;
   description: string;
 }

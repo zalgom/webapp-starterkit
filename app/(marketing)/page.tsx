@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import {
   Zap,
@@ -97,7 +98,7 @@ const TECH_STACK: TechStackItem[] = [
   },
 ];
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "홈",
 };
 
