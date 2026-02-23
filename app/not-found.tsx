@@ -1,6 +1,12 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "페이지를 찾을 수 없습니다",
+  robots: { index: false, follow: false },
+};
 
 // 커스텀 404 페이지
 export default function NotFound() {

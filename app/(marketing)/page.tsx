@@ -186,6 +186,7 @@ export default function LandingPage() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group"
+                aria-label={`${tech.name} 공식 문서 열기 (새 탭)`}
               >
                 <Card className="text-center transition-all hover:border-primary/50 hover:shadow-sm">
                   <CardContent className="pt-6 pb-4">

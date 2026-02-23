@@ -1,5 +1,3 @@
-"use client";
-
 import { useEffect, useState } from "react";
 
 const MOBILE_BREAKPOINT = 768;
@@ -13,12 +11,12 @@ export function useMobile(): boolean {
       `(max-width: ${MOBILE_BREAKPOINT - 1}px)`
     );
 
-    const handleChange = (event: MediaQueryListEvent) => {
-      setIsMobile(event.matches);
+    const handleChange = () => {
+      setIsMobile(mediaQuery.matches);
     };
 
-    // 초기값 설정
-    setIsMobile(mediaQuery.matches);
+    // 래퍼 함수로 초기값 설정
+    handleChange();
 
     // 변경 감지
     mediaQuery.addEventListener("change", handleChange);

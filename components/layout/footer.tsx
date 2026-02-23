@@ -1,9 +1,9 @@
 import Link from "next/link";
 import { Separator } from "@/components/ui/separator";
 import { SITE_CONFIG, FOOTER_LINKS } from "@/lib/constants";
+import { CopyrightYear } from "./copyright-year";
 
 export function Footer() {
-  const currentYear = new Date().getFullYear();
 
   return (
     <footer className="w-full border-t border-border bg-background">
@@ -48,7 +48,7 @@ export function Footer() {
 
         {/* 하단: 저작권 */}
         <p className="text-center text-sm text-muted-foreground">
-          © {currentYear} {SITE_CONFIG.name}. All rights reserved.
+          © <CopyrightYear /> {SITE_CONFIG.name}. All rights reserved.
         </p>
       </div>
     </footer>

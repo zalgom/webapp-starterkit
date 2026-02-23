@@ -1,3 +1,5 @@
+import type { NavLink, FooterLinkGroup } from "@/types";
+
 // 사이트 기본 정보
 export const SITE_CONFIG = {
   name: "StarterKit",
@@ -11,7 +13,7 @@ export const NAV_LINKS = [
   { label: "소개", href: "#features" },
   { label: "기술 스택", href: "#tech" },
   { label: "시작하기", href: "#getting-started" },
-] as const;
+] as const satisfies readonly NavLink[];
 
 // 푸터 링크 그룹
 export const FOOTER_LINKS = [
@@ -31,4 +33,4 @@ export const FOOTER_LINKS = [
       { label: "Discord", href: "https://discord.com", external: true },
     ],
   },
-] as const;
+] as const satisfies readonly FooterLinkGroup[];
