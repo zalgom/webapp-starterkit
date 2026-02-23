@@ -1,0 +1,142 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link "StarterKit" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e6]: StarterKit
+        - generic [ref=e11]:
+          - button "테마 전환" [active] [ref=e12]:
+            - img
+          - button "메뉴 열기" [ref=e162]:
+            - img
+            - generic [ref=e163]: 메뉴 열기
+    - main [ref=e13]:
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - img
+          - text: Web Starter Kit
+        - heading "더 빠르게 웹 개발을 시작하세요" [level=1] [ref=e16]:
+          - text: 더 빠르게 웹 개발을
+          - text: 시작하세요
+        - paragraph [ref=e17]: Next.js 15, TypeScript, Tailwind CSS v4, shadcn/ui가 미리 설정된 프로덕션 레디 스타터킷
+        - generic [ref=e18]:
+          - link "시작하기" [ref=e19] [cursor=pointer]:
+            - /url: "#features"
+            - text: 시작하기
+            - img
+          - link "GitHub" [ref=e20] [cursor=pointer]:
+            - /url: https://github.com
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - heading "핵심 기능" [level=2] [ref=e24]
+          - paragraph [ref=e25]: 바로 사용 가능한 기능들이 포함되어 있습니다
+        - generic [ref=e26]:
+          - generic [ref=e27]:
+            - generic [ref=e28]:
+              - img [ref=e30]
+              - generic [ref=e32]: 빠른 성능
+            - generic [ref=e34]: Next.js 15 App Router와 React 19 Server Components로 최적화된 성능
+          - generic [ref=e35]:
+            - generic [ref=e36]:
+              - img [ref=e38]
+              - generic [ref=e44]: 완성된 디자인 시스템
+            - generic [ref=e46]: shadcn/ui + Tailwind CSS v4로 일관된 UI 컴포넌트 즉시 사용 가능
+          - generic [ref=e47]:
+            - generic [ref=e48]:
+              - img [ref=e50]
+              - generic [ref=e52]: 다크 모드 기본 지원
+            - generic [ref=e54]: next-themes로 라이트/다크/시스템 테마를 자동으로 지원
+          - generic [ref=e55]:
+            - generic [ref=e56]:
+              - img [ref=e58]
+              - generic [ref=e60]: 반응형 디자인
+            - generic [ref=e62]: 모바일 우선 설계로 모든 디바이스에서 완벽하게 동작
+          - generic [ref=e63]:
+            - generic [ref=e64]:
+              - img [ref=e66]
+              - generic [ref=e68]: TypeScript Strict
+            - generic [ref=e70]: any 타입 금지, strict 모드로 타입 안전성 보장
+          - generic [ref=e71]:
+            - generic [ref=e72]:
+              - img [ref=e74]
+              - generic [ref=e78]: 개발자 경험
+            - generic [ref=e80]: ESLint, 경로 별칭(@/*), 일관된 코딩 컨벤션으로 빠른 개발
+      - generic [ref=e82]:
+        - heading "기술 스택" [level=2] [ref=e84]
+        - generic [ref=e85]:
+          - link "v15 Next.js App Router, RSC" [ref=e86] [cursor=pointer]:
+            - /url: https://nextjs.org
+            - generic [ref=e88]:
+              - generic [ref=e89]: v15
+              - paragraph [ref=e90]: Next.js
+              - paragraph [ref=e91]: App Router, RSC
+          - link "v19 React Server Components" [ref=e92] [cursor=pointer]:
+            - /url: https://react.dev
+            - generic [ref=e94]:
+              - generic [ref=e95]: v19
+              - paragraph [ref=e96]: React
+              - paragraph [ref=e97]: Server Components
+          - link "v5 TypeScript Strict Mode" [ref=e98] [cursor=pointer]:
+            - /url: https://typescriptlang.org
+            - generic [ref=e100]:
+              - generic [ref=e101]: v5
+              - paragraph [ref=e102]: TypeScript
+              - paragraph [ref=e103]: Strict Mode
+          - link "v4 Tailwind CSS CSS-first Config" [ref=e104] [cursor=pointer]:
+            - /url: https://tailwindcss.com
+            - generic [ref=e106]:
+              - generic [ref=e107]: v4
+              - paragraph [ref=e108]: Tailwind CSS
+              - paragraph [ref=e109]: CSS-first Config
+          - link "latest shadcn/ui New York Style" [ref=e110] [cursor=pointer]:
+            - /url: https://ui.shadcn.com
+            - generic [ref=e112]:
+              - generic [ref=e113]: latest
+              - paragraph [ref=e114]: shadcn/ui
+              - paragraph [ref=e115]: New York Style
+          - link "latest next-themes Dark Mode" [ref=e116] [cursor=pointer]:
+            - /url: https://github.com/pacocoursey/next-themes
+            - generic [ref=e118]:
+              - generic [ref=e119]: latest
+              - paragraph [ref=e120]: next-themes
+              - paragraph [ref=e121]: Dark Mode
+      - generic [ref=e123]:
+        - heading "지금 바로 시작하세요" [level=2] [ref=e124]
+        - paragraph [ref=e125]: 이 스타터킷을 클론하고 바로 개발을 시작할 수 있습니다
+        - generic [ref=e126]: $ git clone https://github.com/your/webapp-starterkit
+    - contentinfo [ref=e127]:
+      - generic [ref=e128]:
+        - generic [ref=e129]:
+          - generic [ref=e130]:
+            - paragraph [ref=e131]: StarterKit
+            - paragraph [ref=e132]: Next.js 15 + TypeScript + Tailwind CSS + shadcn/ui 스타터킷
+          - generic [ref=e133]:
+            - paragraph [ref=e134]: 리소스
+            - list [ref=e135]:
+              - listitem [ref=e136]:
+                - link "Next.js 문서" [ref=e137] [cursor=pointer]:
+                  - /url: https://nextjs.org/docs
+              - listitem [ref=e138]:
+                - link "shadcn/ui" [ref=e139] [cursor=pointer]:
+                  - /url: https://ui.shadcn.com
+              - listitem [ref=e140]:
+                - link "Tailwind CSS" [ref=e141] [cursor=pointer]:
+                  - /url: https://tailwindcss.com
+          - generic [ref=e142]:
+            - paragraph [ref=e143]: 커뮤니티
+            - list [ref=e144]:
+              - listitem [ref=e145]:
+                - link "GitHub" [ref=e146] [cursor=pointer]:
+                  - /url: https://github.com
+              - listitem [ref=e147]:
+                - link "Twitter" [ref=e148] [cursor=pointer]:
+                  - /url: https://twitter.com
+              - listitem [ref=e149]:
+                - link "Discord" [ref=e150] [cursor=pointer]:
+                  - /url: https://discord.com
+        - paragraph [ref=e151]: © 2026 StarterKit. All rights reserved.
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e157] [cursor=pointer]:
+    - img [ref=e158]
+  - alert [ref=e161]
