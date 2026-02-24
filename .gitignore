@@ -40,8 +40,3 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# MCP
-.playwright-mcp/
-
-# Claude Code local settings
-.claude/
